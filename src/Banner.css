@@ -1,0 +1,26 @@
+.body{
+    font-family: inherit;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    display: block;
+    left: 0;
+    width: 100vw; /* Ancho igual al ancho de la ventana del navegador */
+    height: 100vw;
+    background-color: #f8e71c;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease; 
+    opacity: 1; /* Asegura que el Banner sea inicialmente visible */
+    z-index: 999; 
+  }
+
+  
+  .banner.hidden {
+    opacity: 0;
+  }
+  
